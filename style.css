@@ -14,8 +14,10 @@
  
 }
 @keyframes stretch {
-  /* declare animation actions here */
+ from {top: 0px;}
+ to   {top: 200px;}
 }
+
 
 .element {
   animation-name: stretch;
