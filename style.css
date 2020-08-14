@@ -14,8 +14,8 @@
  
 }
 @keyframes stretch {
- from {top: 0px;}
- to   {top: 200px;}
+ from{transform: translateX(0)}
+  to{transform: translateX(1340px);}
 }
 
 
