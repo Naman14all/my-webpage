@@ -13,20 +13,27 @@
   border-radius: 50%;
  
 }
-@keyframes stretch {
- from{transform: translateX(0)}
-  to{transform: translateX(1340px);}
+.element {
+  -webkit-animation: KEYFRAME-NAME 5s infinite;
+  -moz-animation:    KEYFRAME-NAME 5s infinite;
+  -o-animation:      KEYFRAME-NAME 5s infinite;
+  animation:         KEYFRAME-NAME 5s infinite;
 }
 
-
-.element {
-  animation-name: stretch;
-  animation-duration: 1.5s; 
-  animation-timing-function: ease-out; 
-  animation-delay: 0s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
-  animation-play-state: running; 
+@-webkit-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
 
