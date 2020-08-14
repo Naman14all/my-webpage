@@ -14,10 +14,10 @@
  
 }
 .element {
-  -webkit-animation: KEYFRAME-NAME 10s infinite;
-  -moz-animation:    KEYFRAME-NAME 10s infinite;
-  -o-animation:      KEYFRAME-NAME 10s infinite;
-  animation:         KEYFRAME-NAME 10s infinite;
+  -webkit-animation: KEYFRAME-NAME 8s infinite;
+  -moz-animation:    KEYFRAME-NAME 8s infinite;
+  -o-animation:      KEYFRAME-NAME 8s infinite;
+  animation:         KEYFRAME-NAME 8s infinite;
 }
 
 @-webkit-keyframes KEYFRAME-NAME {
